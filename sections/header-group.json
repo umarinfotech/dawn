@@ -23,6 +23,7 @@
         },
         "announcement-bar-0": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "Umar InfoTech Private Limited",
             "link": ""
@@ -53,7 +54,7 @@
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "color_scheme": "scheme-4",
-        "menu_color_scheme": "scheme-1",
+        "menu_color_scheme": "scheme-2",
         "enable_country_selector": true,
         "enable_language_selector": true,
         "enable_customer_avatar": true,
