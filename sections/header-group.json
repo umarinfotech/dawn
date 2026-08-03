@@ -14,19 +14,27 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_GmMhJn": {
+          "type": "announcement",
+          "settings": {
+            "text": "50% OFF",
+            "link": ""
+          }
+        },
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Umar InfoTech Private Limited",
             "link": ""
           }
         }
       },
       "block_order": [
+        "announcement_GmMhJn",
         "announcement-bar-0"
       ],
       "settings": {
-        "auto_rotate": false,
+        "auto_rotate": true,
         "change_slides_speed": 5,
         "color_scheme": "scheme-1",
         "show_line_separator": true,
