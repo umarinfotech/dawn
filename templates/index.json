@@ -87,7 +87,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "collection": "all",
+        "collection": "mobile-accessories",
         "products_to_show": 8,
         "title": "Featured products",
         "heading_size": "h2",
@@ -111,10 +111,52 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "collection_list_hGgEzY": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_Er4q4R": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "electronics"
+          }
+        },
+        "featured_collection_rxqcUG": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "cameras-photohraphy"
+          }
+        },
+        "featured_collection_mepMyC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "mobile-accessories"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_Er4q4R",
+        "featured_collection_rxqcUG",
+        "featured_collection_mepMyC"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "slideshow_ywYcFR",
-    "featured_collection"
+    "featured_collection",
+    "collection_list_hGgEzY"
   ]
 }
